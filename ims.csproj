@@ -1,0 +1,91 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-coderush-10F86EC1-A7B9-40B3-A943-2C9C114B0BDE</UserSecretsId>
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\BillType\**" />
+    <Compile Remove="Views\Branch\**" />
+    <Compile Remove="Views\CashBank\**" />
+    <Compile Remove="Views\Currency\**" />
+    <Compile Remove="Views\InvoiceType\**" />
+    <Compile Remove="Views\ShipmentType\**" />
+    <Compile Remove="Views\UnitOfMeasure\**" />
+    <Compile Remove="Views\Warehouse\**" />
+    <Content Remove="Views\BillType\**" />
+    <Content Remove="Views\Branch\**" />
+    <Content Remove="Views\CashBank\**" />
+    <Content Remove="Views\Currency\**" />
+    <Content Remove="Views\InvoiceType\**" />
+    <Content Remove="Views\ShipmentType\**" />
+    <Content Remove="Views\UnitOfMeasure\**" />
+    <Content Remove="Views\Warehouse\**" />
+    <EmbeddedResource Remove="Views\BillType\**" />
+    <EmbeddedResource Remove="Views\Branch\**" />
+    <EmbeddedResource Remove="Views\CashBank\**" />
+    <EmbeddedResource Remove="Views\Currency\**" />
+    <EmbeddedResource Remove="Views\InvoiceType\**" />
+    <EmbeddedResource Remove="Views\ShipmentType\**" />
+    <EmbeddedResource Remove="Views\UnitOfMeasure\**" />
+    <EmbeddedResource Remove="Views\Warehouse\**" />
+    <None Remove="Views\BillType\**" />
+    <None Remove="Views\Branch\**" />
+    <None Remove="Views\CashBank\**" />
+    <None Remove="Views\Currency\**" />
+    <None Remove="Views\InvoiceType\**" />
+    <None Remove="Views\ShipmentType\**" />
+    <None Remove="Views\UnitOfMeasure\**" />
+    <None Remove="Views\Warehouse\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\Api\BillTypeController.cs" />
+    <Compile Remove="Controllers\Api\BranchController.cs" />
+    <Compile Remove="Controllers\Api\CashBankController.cs" />
+    <Compile Remove="Controllers\Api\CurrencyController.cs" />
+    <Compile Remove="Controllers\Api\InvoiceTypeController.cs" />
+    <Compile Remove="Controllers\Api\PaymentTypeController.cs" />
+    <Compile Remove="Controllers\Api\ShipmentTypeController.cs" />
+    <Compile Remove="Controllers\Api\UnitOfMeasureController.cs" />
+    <Compile Remove="Controllers\Api\WarehouseController.cs" />
+    <Compile Remove="Controllers\BillTypeController.cs" />
+    <Compile Remove="Controllers\BranchController.cs" />
+    <Compile Remove="Controllers\CashBankController.cs" />
+    <Compile Remove="Controllers\CurrencyController.cs" />
+    <Compile Remove="Controllers\InvoiceTypeController.cs" />
+    <Compile Remove="Controllers\PaymentTypeController.cs" />
+    <Compile Remove="Controllers\ShipmentTypeController.cs" />
+    <Compile Remove="Controllers\UnitOfMeasureController.cs" />
+    <Compile Remove="Controllers\WarehouseController.cs" />
+    <Compile Remove="Models\BillType.cs" />
+    <Compile Remove="Models\Branch.cs" />
+    <Compile Remove="Models\CashBank.cs" />
+    <Compile Remove="Models\InvoiceType.cs" />
+    <Compile Remove="Models\PaymentType.cs" />
+    <Compile Remove="Models\ShipmentType.cs" />
+    <Compile Remove="Models\UnitOfMeasure.cs" />
+    <Compile Remove="Models\Warehouse.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\bg1.jpg" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" PrivateAssets="All" />
+    <PackageReference Include="Sendgrid" Version="9.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.2" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+</Project>
